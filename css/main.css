@@ -175,6 +175,7 @@ header #btnNav:checked ~ .iconNav span:after {
 
 h1{
   display:inline-block;
+  width:75%;
   font-family: 'Karnak';
   color:rgb(126,187,192);
   text-align: center;
@@ -568,7 +569,7 @@ margin: 2% 2%;
   }
 
   .index_header {
-
+  margin-top: 5px;
    /* display: inline-grid;
     grid-column: 1 / -1;
     min-height: 400px;
