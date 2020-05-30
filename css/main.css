@@ -67,7 +67,7 @@ header #btnNav:checked ~ nav {
   display: inline-block;
   height: 8rem;
   margin: 0;
-  padding-right: 1rem;
+/*   padding-right: 1rem; */
 }
 
 .logo span {
