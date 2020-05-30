@@ -52,10 +52,10 @@ header #btnNav:checked ~ nav {
 }
 
 .logo {
- float:left;
-/*   position:relative;
+  float:left;
+ /* position:relative;
   left:10px;
-  display:inline; */
+  display:inline;*/
  /* display: inline-flex;
   align-items: center;
   text-decoration: none;
@@ -64,10 +64,11 @@ header #btnNav:checked ~ nav {
 }
 
 .logo img {
+  float:left;
   display: inline-block;
   height: 8rem;
   margin: 0;
-/*   padding-right: 1rem; */
+  padding-right: 1rem;
 }
 
 .logo span {
@@ -175,7 +176,6 @@ header #btnNav:checked ~ .iconNav span:after {
 
 h1{
   display:inline-block;
-  width:75%;
   font-family: 'Karnak';
   color:rgb(126,187,192);
   text-align: center;
@@ -407,7 +407,7 @@ color: var(--color-nav-link);
 }
 
 /* Index Mobile Styling */
-.sec1, .sec2, .sec3 {
+.sec1, .sec2, .sec3, .sec4 {
 grid-template-columns: 1fr;
 margin: 2% 2%;
 }
@@ -569,7 +569,7 @@ margin: 2% 2%;
   }
 
   .index_header {
-  margin-top: 5px;
+
    /* display: inline-grid;
     grid-column: 1 / -1;
     min-height: 400px;
@@ -593,17 +593,16 @@ margin: 2% 2%;
     font-style: normal;
     --color-nav-link: white;
     justify-content: left;
-    padding-left: 20px;
+    padding-left: 10px;
     display:inline;
     position:relative;
-    top:-9px;
   }
 
   h2 {
     margin: 0;
   }
 @media only screen and (min-width:768px){
-  .sec1, .sec2, .sec3 {
+  .sec1, .sec2, .sec3, .sec4 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
@@ -613,13 +612,14 @@ margin: 2% 2%;
 
     font-family: 'Source Sans Pro', sans-serif;
   }
-#what {
+#what, #how {
     order:1;
     justify-self: center;
   }
 
 }
   .sec1 h3, .sec3 h3{
+      padding-left:3% !important;
       background-image:linear-gradient(60deg, #8CBABE 1.85%, rgba(140, 186, 190, 0.59) 42.19%, rgba(193, 218, 220, 0.31624) 69.27%, rgba(255, 255, 255, 0) 96.35%),url("../images/proj-1.jpg");
       background-size: 100%;
       background-position:50% 50%;
@@ -634,7 +634,8 @@ margin: 2% 2%;
   }
 
 
-  .sec2 h3{
+  .sec2 h3, .sec4 h3{
+      padding-right:3% !important;
       background-image:linear-gradient(60deg, #8CBABE 1.85%, rgba(140, 186, 190, 0.59) 42.19%, rgba(193, 218, 220, 0.31624) 69.27%, rgba(255, 255, 255, 0) 96.35%),url("../images/house-n2-home-3.jpg");
       background-size: 100%;
       background-position:50% 50%;
@@ -644,7 +645,12 @@ margin: 2% 2%;
 
   }
 
-  .sec2{
+  .sec4 h3{
+      background-image:linear-gradient(60deg, #8CBABE 1.85%, rgba(140, 186, 190, 0.59) 42.19%, rgba(193, 218, 220, 0.31624) 69.27%, rgba(255, 255, 255, 0) 96.35%),url("../images/house-n2-home-2.jpg");
+
+  }
+
+  .sec2, .sec4{
     order: -1;
   }
 
@@ -659,7 +665,7 @@ margin: 2% 2%;
     padding-top: 25%;*/
   }
 
-  #what {
+  #what, #how {
     width: 100%;
     border: 3px solid rgba(102,120,131,1);
     border-radius: 10px;
@@ -680,7 +686,7 @@ margin: 2% 2%;
     grid-column: 1 / span 1;
   }*/
 
-  #who, #why, #what{ padding: 15%; align-self:center}
+  #who, #why, #what, #how{ padding: 15%; align-self:center}
 
   .container{ font-size: 200%}
 
