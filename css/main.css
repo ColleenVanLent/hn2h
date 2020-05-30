@@ -52,10 +52,10 @@ header #btnNav:checked ~ nav {
 }
 
 .logo {
-  float:left;
- /* position:relative;
+/*  float:left;
+*/  position:relative;
   left:10px;
-  display:inline;*/
+  display:inline;
  /* display: inline-flex;
   align-items: center;
   text-decoration: none;
@@ -729,3 +729,16 @@ margin: 2% 2%;
 }
 
 
+@media all and (max-width:778px){
+  .logo{
+    display:none;
+  }
+  h1{
+    display: block;
+    width:100%;
+    text-align: center;
+  }
+  p{
+    color:black !important;
+  }
+}
