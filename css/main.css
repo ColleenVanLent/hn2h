@@ -52,6 +52,7 @@ header #btnNav:checked ~ nav {
 }
 
 .logo {
+  max-width:10%;
 /*   position:relative;
   left:10px;
   display:inline; */
