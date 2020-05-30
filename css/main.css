@@ -52,9 +52,9 @@ header #btnNav:checked ~ nav {
 }
 
 .logo {
-  position:relative;
+/*   position:relative;
   left:10px;
-  display:inline;
+  display:inline; */
  /* display: inline-flex;
   align-items: center;
   text-decoration: none;
