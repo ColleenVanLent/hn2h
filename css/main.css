@@ -123,7 +123,7 @@ nav a:hover {
 
 
 .iconNav span {
-  background: var(--color-nav-link-active);
+  background: #3a4051;
   display: block;
   height: 2px;
   position: relative;
@@ -135,7 +135,7 @@ nav a:hover {
 
 .iconNav span:before,
 .iconNav span:after {
-  background: var(--color-nav-link-active);
+  background: #3a4051;
   content: "";
   display: block;
   height: 100%;
@@ -177,6 +177,7 @@ h1{
   font-family: 'Karnak';
   color:rgb(126,187,192);
   text-align: center;
+  font-size: 1.5em;
 }
 .headerTxt h2{
   font-family: 'Sofia';
@@ -193,19 +194,19 @@ h1{
 } */
 
 footer{
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto;
+  margin: 0 auto;
   background-color: #87b4b8;
+  border-top: 5px solid #69818c;
   font-size: 2em;
   color: #ffffff;
-  padding: 20px;
+  padding: 5px;
   position: relative;
   z-index: 10;
   display: grid;
   bottom: 0;
-  width: 100%;
+  width: 95%;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .sMedia img {
@@ -423,7 +424,7 @@ margin: 2% 2%;
     display: none;
   }
   h1{
-    width:90%;
+    width:85%;
   }
   nav,
   header #btnNav:checked ~ nav {
@@ -474,12 +475,10 @@ margin: 2% 2%;
   }
 
     footer{
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
+    
     background-color: #87b4b8;
     font-size: 2em;
     color: #ffffff;
-    padding: 30px;
     position: relative;
     z-index: 10;
     display: grid;
