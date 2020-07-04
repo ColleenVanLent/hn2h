@@ -233,6 +233,8 @@ footer{
   height: 400px;
   z-index: -1;
   width: 100%;
+  display:block;
+  margin: 0 auto;
 }
 
 .heroTxt h1 {
@@ -421,6 +423,11 @@ margin: 2% 2%;
 
 /********************************************************/
 @media all and (min-width: 768px) {
+
+  .hero img {
+    width:85%;
+  }
+  
   header {
     display: flex;
     justify-content: space-between;
@@ -441,7 +448,7 @@ margin: 2% 2%;
   nav ul {
     margin: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
   }
   nav li {
     display: inline-block;
