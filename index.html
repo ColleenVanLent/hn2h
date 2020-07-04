@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-				<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
 
 			<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
     			<link rel="icon" type="image/png" href="images/logo.png">
@@ -17,26 +17,39 @@
 			<style>
 				#n2{
 					display:inline-block;
-  					 -webkit-animation: n2 2s;
-				  -moz-animation: n2 2s ease-in;
-				  animation: n2 2s ease-in;
+					position: relative;
+					/*left: 1000px;*/
+  					 -webkit-animation: n2 2.5s ease-in;
+				  	-moz-animation: n2 2.5s ease-in;
+				  	animation: n2 2.5s ease-in;
 				}
+				#n3{
+					display:inline-block;
+					position: relative;
+  					 -webkit-animation: n3 2s ease-in;
+				  	-moz-animation: n3 2s ease-in;
+				  	animation: n3 2s ease-in;
+				}
+
 				@-webkit-keyframes n2 {
-   					/*0% { display:none; width: 0; }
-   					25% { display:inline;}*/
    					from { 
             -webkit-transform: rotate(0deg); 
+            left: 1000px;
         } to { 
             -webkit-transform: rotate(360deg); 
+            left: 0;
         }
 				}
-				/*
-				@-moz-keyframes n2 {
-				   0% { display:none; width: 0; }
-				}*/
-				/*keyframes n2 {
-				   0% { display:none; width: 0; }
-				}*/
+
+				@-webkit-keyframes n3 {
+   					from { 
+            
+            left: 1000px;
+        } to { 
+            left: 0;
+        }
+				}
+
 				</style>
 		</head>
 		<body>
@@ -50,10 +63,10 @@
             		<nav>
               			<ul>
 				<!-- <li><a class="active" href="#">Link</a></li> -->
-				<li><a href="/">Home</a></li>
-				<li><a href="/projects">Stories</a></li>
-				<li><a href="/news">News</a></li>
-				<li><a href="/get-involved">Get Involved</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="stories.html">Stories</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="involvement.html">Get Involved</a></li>
 			      </ul>
 			    </nav>
         	</header>
@@ -63,32 +76,157 @@
 <div class="index-wrapper">
 	
 <div class="index_header">
-	<a class="logo" href="index.html">
-              			<img src="images/logo.png" alt="Logo"/>
-            		</a>
+	
 	<div class="headerTxt">
-		<h1>House <span id ="n2">N2</span> Home</h1>
+		<a class="logo" href="index.html">
+      <img src="images/logo.png" alt="Logo"/></a>
+		<h1 class = "index">House<span id ="n2">N2</span><span id="n3">Home<span></h1>
 		<h2>Creating spaces for families to thrive in</h2>
+
+
 	</div>
 </div>
  <!-- End Header -->
 
+<div class="slideshow-container">
+
+            <!-- Full-width slides/quotes -->
+            <div class="mySlides">
+            <q>Thank you all so much. I never could have done this myself. My son paints everyday. He loves his room. I’ve cooked everyday since the day you moved me in. I keep my house clean. I just love it! Thank you.</q>
+            <p class="author">- June 2019</p> 
+            </div>
+        
+            <div class="mySlides">
+            <q>I just woke up but I think I may still be asleep. THANK YOU ALL SOOOOO MUCH! It's so beautiful. &#11088; Everything. I wouldn’t change anything at all. Thank you for your time, your patience, your effort, for helping me and my babies start our new life off on a new foot. I am forever grateful for everything.</q>
+            <p class="author">- January 2020</p>
+            </div>
+        
+        	<div class="mySlides">
+            <q>This has been a big week with many beautiful rooms created! I am proud to know all of you and to watch how selflessly you give of your time, energy, and talents. Thank you!</q>
+            <p class="author">- Volunteer</p>
+            </div>
+
+            <div class="mySlides">
+            <q>I can’t say it enough: Ozone House and I are so grateful for everything HN2H has done to support our young people.</q>
+            <p class="author">- Ozone House case manager</p>
+            </div>
+
+            <div class="mySlides">
+            <q>Thank you guys so much for helping me today!! Whenever something wonderful is happening you guys are always a part of It !! I love you so much and I want to be willing to help just as much!!! You guys were there to support me and help me so that this transition into work is not so tough and I can't tell you how much my heart feels light for your help and your love.</q>
+            <p class="author">- July 2019</p>
+            </div>
+
+            <div class="mySlides">
+            <q>Thank you for all you have done to help set up my apartment. Just wondering when I might be able to help with a move?</q>
+            <p class="author">- February 13, 2020, a veteran</p>
+            </div>
+
+			<div class="mySlides">
+            <q>You know my favorite part?  It’s finding those one or two special things that are truly personal. I think more than all the fabulous furniture, it’s the personal touch that says, ‘I see you.’</q>
+            <p class="author">- Volunteer</p>
+            </div>
+
+            <div class="mySlides">
+            <q>Just wanted to thank you guys again. My kids are sleeping so comfortably.</q>
+            <p class="author">- August 2019</p>
+            </div>
+
+            <div class="mySlides">
+            <q>I wanted to extend the warmest thank you to you and your team for all the work you did today and every day. The impact is immense and I know it means so much (to the clients.) HN2H makes me as well as our clients feel supported by our community in such wonderful ways...can’t wait to work with your team more soon!</q>
+            <p class="author">- Caseworker</p>
+            </div>
+
+
+            <div class="mySlides">
+            <q>I just wanted to tell you thank you sooooooooo much. I literally well up in tears everytime i think about what you all have done for us. THANK YOU!</q>
+            <p class="author">- October 2019</p>
+            </div>
+
+            <div class="mySlides">
+            <q>I LOVE IT SO MUCHHHH</q>
+            <p class="author">- October 2019</p>
+            </div>
+
+ 			<div class="mySlides">
+            <q>You are truly doing the work of angels.</q>
+            <p class="author">- Donor January 2020</p>
+            </div>
+
+            <div class="mySlides">
+            <q>Thank you all for taking time away from your family this week before Christmas to give me and my family this beautiful space.</q>
+            <p class="author">- December 2019</p>
+            </div>
+
+            <div class="mySlides">
+            <q>My children haven’t slept on a mattress since 2017.</q>
+            <p class="author">- December 2019</p>
+            </div>
+
+			<div class="mySlides">
+            <q>What you are doing is so wonderful and heartwarming.</q>
+            <p class="author">- Donor February 2020</p>
+            </div>
+
+            <div class="mySlides">
+            <q>I’m just basking in all the blessing God continues to bless us with. I love you all so much.</q>
+            <p class="author">- March 2020</p>
+            </div>
+
+            <div class="mySlides">
+            <q>When the 9 year old walked in to see their new home, I heard a squeal and then, ‘I love it all!’ And more squeals and thank yous! Great day! The stars above the bed leading to the mermaid on the wall will surely be her favorite. Great afternoon.</q>
+            <p class="author">- Volunteer</p>
+            </div>
+
+            <div class="mySlides">
+            <q>Using our unique gifts to spread hope and joy in our communities, one home at a time: priceless.</q>
+            <p class="author">- Volunteer</p>
+            </div>
+
+            <div class="mySlides">
+            <q>You’ve created a safe, warm haven for her.</q>
+            <p class="author">- Volunteer</p>
+            </div>
+
+            <div class="mySlides">
+            <q>These (photos) are so beautiful I am so grateful we have been connected. You and the entire team have truly changed his life for good.</q>
+            <p class="author">- Caseworker</p>
+            </div>
+
+            <div class="mySlides">
+            <q>Keep up the life changing work!</q>
+            <p class="author">- Caseworker</p>
+            </div>
+           
+
+            <div class="mySlides">
+            <q>You are doing such important work.</q>
+            <p class="author">- Donor December 2019</p>
+            </div>
+
+        
+            <!-- Next/prev buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+			
+			</div><!-- /.container -->
 <!-- Section 1 -->
 <div class="sec1">
 <h3 id="who">Who we are</h3>
 	<p id="whoTxt">
-		We are a group of volunteers from southeast Michigan who help to provide furnishings for people in our area who are moving out of homeless shelters and into rental housing.  We began in 2017 as a small group of friends working together to furnish a home for one single mom and her children.
+		We are a group of volunteers who help to provide furnishings for people who are moving out of homeless shelters and into rental housing.  We began in 2017 as a small group of friends working together to furnish a home for one single mom and her children.
 		Inspired by that experience, and by the need in our community, we have grown to over two dozen volunteers and have completely furnished the homes of 60 families coming out of shelters in Washtenaw County.
 	</p>
 </div>
 <!-- End Section 1 -->
 	
+
 <!-- Section 2 -->
 <div class="sec2">
 <h3 id="what">What we do</h3>
 <p id="whatTxt">
-		The process begins when we are informed by a caseworker from one of the local shelters that an individual or family is moving out of the shelter and into a local house or apartment and needs our services. Next, we meet with the clients to assess their needs and to evaluate the space they will be moving into. Then, we begin pulling the appropriate furniture and household items from our inventory and make a plan for move-in day. Finally, a team of volunteers complete the home makeover, placing the furniture and other items in just the right spot for the final reveal!
-		how we do it
+		The process begins when we are informed by a caseworker from a local shelter that an individual or family is moving out of the shelter and into a local house or apartment. Next, we meet with the clients to assess their needs and to evaluate the space they will be moving into. Then, we begin pulling appropriate furniture and household items from our inventory. Finally, a team of volunteers complete the home makeover, placing the furniture and other items in just the right spot for the final reveal!
 	</p>
 
 </div>
@@ -101,11 +239,16 @@
 		We believe that one step in restoring dignity to a family who has endured homelessness is to help them create a home that is functional, comfortable, and inviting. Using donated, and occasionally purchased, furniture and household goods, our team helps to convert a house (or apartment) into a real home--a space in which a family can thrive, without having to worry about where they will sit, sleep, or eat their meals.
 	</p>
 </div>
+
+<div class="sec4">
+<h3 id="how">How you can help</h3>
+	<p id="howTxt">
+		Because we function entirely through volunteers, we always need more helpers. Come join us! We need people to collect donations, we need people to clean and organize the furnishings, and we need people to do the actual move-ins. Come be one of those people. You can also help in other ways. For example, you can donate high-quality gently used items, anything that might be helpful in turning a house into a home.
+	</p>
+</div>
 <!-- End Section 3 -->
 </div>
 
-			
-			</div><!-- /.container -->
 			<footer>
 			    <p>© Copyright 2020 HOUSE N2 HOME</p>
 			    <div class="sMedia">
@@ -114,6 +257,6 @@
 			      <a href="#foo"><img src="images/icon-tw.png" alt="Twitter"></a>
 			  </div>
 			</footer>
-			<script src="/js/mainScript.js"> </script>
+			<script src="js/mainScript.js"> </script>
 		</body>
 	</html>
